@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas en HTML</title>
+<link href="../css/style_page_y.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+<header><h1>Tablas</h1>
+</header>
+	
+
+	<nav>
+  <ul>
+    <li><a href="estilo_texto.html" target="_blank">Estilos de Texto&nbsp;</a></li>
+    <li><a href="listas.html" target="_blank">Listas&nbsp;</a></li>
+    <li><a href="tablas.html" target="_blank">Tablas&nbsp;</a></li>
+    <li><a href="imagenes.html" target="_blank">Imágenes&nbsp;</a></li>
+    <li><a href="audio.html" target="_blank">Audios&nbsp;</a> </li>
+    <li> <a href="video.html" target="_blank">Videos&nbsp;</a> </li>
+	<li> <a href="formularios.html" target="_blank">Formularios&nbsp;</a> </li>
+	<li> <a href= "fuentes.html" target="_blank">Fuentes y Animaciones</a> </li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2 class="encabezado_impar"><strong><i>TABLA SIMPLE</i></strong></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quam harum voluptatibus inventore unde facilis at aliquid ab temporibus repellat sit error, optio, tenetur placeat iusto cum odit dolorem fugit eaque! Consequatur officia debitis soluta assumenda, explicabo tempora velit itaque iure error odio eius, similique facere dolorem tenetur possimus corporis! ipsum dolor sit amet, consectetur adipisicing elit. Praesentium perferendis sunt, reiciendis animi placeat maiores nobis voluptatem obcaecati natus, veritatis similique minima quos minus qui iure tenetur aliquam architecto unde sint facere quaerat dicta in tempore suscipit voluptas. Molestiae velit, ipsa rerum ex quod similique vero fuga! Voluptatibus assumenda eveniet provident temporibus doloremque, autem? Quos veritatis praesentium veniam possimus odio nihil vitae inventore dicta assumenda accusantium, optio doloremque maxime commodi ipsum, consequuntur laudantium nobis nostrum nesciunt saepe voluptate unde dolorum!</p>
+      <table>
+          <thead>
+              <tr>
+                  <th colspan="3">Nombre</th>
+                 <!-- <th>Apellido M</th>
+                  <th>Nombre</th>-->
+                  <th>Edad</th>
+                  <th>Matrícula</th>
+                  <th>Celular</th>
+                  
+              </tr>
+          </thead>
+            <tr>
+                  <td>Torres</td>
+                  <td>Pérez</td>
+                  <td>Pedro</td>
+                  <td>24</td>
+                  <td>201800000</td>
+                  <td>21455555554</td>
+            </tr>
+              <tr>
+              <td>Morales</td>
+              <td>López</td>
+              <td>Ana</td>
+              <td>28</td>
+              <td>201812681</td>
+              <td>22120178556</td>
+          </tr>
+          <tbody>
+          </tbody>
+          <tfoot>
+              
+          </tfoot>
+      </table>
+  </section>
+  <section >
+    <h2 class="encabezado_par" ><i> TABLA MODIFICADA a través de  identificador en CSS</i></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium unde, perspiciatis iste eum excepturi vitae blanditiis aspernatur in libero porro tempore minima provident, distinctio aut officiis eos facilis itaque error, assumenda fuga mollitia quibusdam animi inventore officia! Sed esse pariatur, deleniti officia sequi ex. Eum eveniet odio quisquam, sequi fugiat!</p>
+    
+    <table  id="style_tabla_1">
+      <tbody>
+        <tr>
+          <th width="62" scope="col">Nombre</th>
+          <th width="188" scope="col">Dirección</th>
+          <th width="70" scope="col" colspan="2">Télefonos</th>
+<!--          <th width="92" scope="col">Celular</th>-->
+        </tr>
+        <tr>
+          <td>Juan</td>
+          <td>2 Pte No.13</td>
+          <td> 55 7 1596</td>
+          <td>222 518 96 25</td>
+        </tr>
+        <tr>
+          <td>José</td>
+          <td>Av juares No 89</td>
+          <td>41 8 5963</td>
+          <td>222 158 6484</td>
+        </tr>
+        <tr>
+          <td>Romina</td>
+          <td>Blvd 16 de SepNo. 502</td>
+          <td>41 8 4231</td>
+          <td>221 417 7848</td>
+        </tr>
+        <tr>
+          <td>Aldo</td>
+          <td>2 Ote No. 7424</td>
+          <td> 856  5269</td>
+          <td> 222 152 8691</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2 id="encabezado_rojo" class="encabezado_impar"><i>TABLA-3</i></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ullam corporis vitae eaque laboriosam, dignissimos magnam molestiae perferendis facilis veritatis necessitatibus assumenda eveniet, accusamus quisquam quasi aperiam maiores nihil! Corporis saepe ut illo esse veniam natus. Repudiandae distinctio perferendis aliquam, repellendus ducimus exercitationem est itaque qui eius minima, sapiente nobis ipsum unde quibusdam quod quas sunt accusamus odit eaque, hic.</p>
+    <table id="style_tabla_2">
+     
+          <thead> 
+        <tr>
+          <th scope="col">Artista</th>
+          <th scope="col">Canción</th>
+          <th scope="col">Año</th>
+        </tr>
+          </thead>
+         <tbody>
+        <tr>
+          <td>Cafe tacvba</td>
+          <td>Eres</td>
+          <td>2003</td>
+        </tr>
+        <tr>
+          <td>Oreja de Vangood</td>
+          <td>Rosas</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>La 5ta estación</td>
+          <td>El sol no regresa</td>
+          <td>2004</td>
+        </tr>
+        <tr>
+          <td>Shakira</td>
+          <td>Antología</td>
+          <td>1995</td>
+        </tr>
+             
+      </tbody>
+    </table>
+  </section>    
+  <section >
+    <h2 class="encabezado_par"><i> MI TABLA&nbsp;</i></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur accusantium voluptates quod laborum delectus dolores nobis dignissimos, dolor, fugit quaerat? ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, aut architecto harum distinctio reprehenderit pariatur, rerum atque at culpa autem recusandae optio impedit quidem magnam sit nesciunt voluptatibus expedita fugiat quos quas eveniet. Expedita consequuntur dolores laboriosam tempore! Expedita maxime aliquam maiores, consectetur ratione tempore, quae, quia sed at blanditiis veniam vitae ipsum numquam incidunt accusamus.</p>
+    <table width="400" border="3">
+      <tbody>
+        <tr>
+          <th scope="row">Pueblo Mágico</th>
+          <td>Zacatlán</td>
+          <td>Cholula</td>
+          <td>Chignahuapan</td>
+          <td>Atlixco</td>
+        </tr>
+        <tr>
+          <th scope="row">Estado</th>
+          <td>Puebla</td>
+          <td>Puebla</td>
+          <td>Puebla</td>
+          <td>Puebla</td>
+        </tr>
+        <tr>
+          <th scope="row">Tiempo de traslado</th>
+          <td>2 hrs aprox </td>
+          <td>30 min aprox</td>
+          <td>1.30 hrs aprox</td>
+          <td>40 min aprox</td>
+        </tr>
+        <tr>
+          <th scope="row">Representativo</th>
+          <td>Manzanas</td>
+          <td>Piramides</td>
+          <td>Aguas termales</td>
+          <td>Flores</td>
+        </tr>
+       
+      </tbody>
+    </table>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Yesenhia Parra López</h6>
+</footer>
+</body>
+</html>

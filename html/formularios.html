@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios Yesenhia</title>
+<link href="../css/style_page_y.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+	<header>
+		<h1 >Formularios </h1>
+	</header>
+<nav>
+  <ul>
+    <li><a href="estilo_texto.html" target="_blank">Estilos de Texto&nbsp;</a></li>
+    <li><a href="listas.html" target="_blank">Listas&nbsp;</a></li>
+    <li><a href="tablas.html" target="_blank">Tablas&nbsp;</a></li>
+    <li><a href="imagenes.html" target="_blank">Imágenes&nbsp;</a></li>
+    <li><a href="audio.html" target="_blank">Audios&nbsp;</a> </li>
+    <li> <a href="video.html" target="_blank">Videos&nbsp;</a> </li>
+	<li> <a href="formularios.html" target="_blank">Formularios&nbsp;</a> </li>
+	<li> <a href= "fuentes.html" target="_blank">Fuentes y Animaciones</a> </li>
+  </ul>
+</nav>
+	
+<main>
+  <section>
+    <h2>FORMULARIO Registro</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id hic, minima quia ullam mollitia fugit quasi facilis at fugiat. Laboriosam vel, fugiat veritatis, itaque quo placeat repudiandae obcaecati dicta, possimus quae ratione cum necessitatibus corporis natus culpa. Quibusdam odio reprehenderit sit nemo. Praesentium fugit repellendus earum, quisquam veniam saepe cumque. ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis asperiores quas nulla cupiditate magni facilis ratione fugit doloribus deserunt est non provident impedit qui voluptas eaque odio necessitatibus officia blanditiis, recusandae et itaque minus, quis cumque. Soluta magni unde, deleniti accusantium ea aut quisquam, nobis ratione. Cumque eligendi est, eaque?</p>
+	  <form action="procesamiento.html" method="get">
+	  	<label for="usuario"> Usuario</label>
+		  
+			<input type="text" id="usuario" name="usuario">
+		<label for="pass"> Contraseña</label>
+		  	<input type="password" id="pass" name="pass">
+		  	<input type="submit" value="Enviar">
+		  
+		 </form>
+	  
+ </section>
+  <section>
+    <h2>FORMULARIO desplegable</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis asperiores quas nulla cupiditate magni facilis ratione fugit doloribus deserunt est non provident impedit qui voluptas eaque odio necessitatibus officia blanditiis, recusandae et itaque minus, quis cumque. Soluta magni unde, deleniti accusantium ea aut quisquam, nobis ratione. Cumque eligendi est, eaque?</p>
+    <label for="nombre2">Dirección:</label>
+    <input name="nombre2" type="text" autofocus="autofocus" id="nombre2" autocomplete="on" size="20" maxlength="100">
+	  <br>
+	  <br>
+	  
+    <form id="form1" name="form1" method="get" action="procesamiento.html">
+      <label for="select">Tipo de calle:</label>
+      <select name="nombre" autofocus="autofocus" id="select">
+        <option value="pue">Carretera</option>
+        <option value="tlx">Avenida</option>
+        <option value="ox">Boulevard</option>
+        <option value="hgo">Cerrada</option>
+        
+      </select>
+		<br>
+		<br>
+      <input type="submit" name="submit" id="submit" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>FORMULARIO Radio button y Casilla de Verificación</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis asperiores quas nulla cupiditate magni facilis ratione fugit doloribus deserunt est non provident impedit qui voluptas eaque odio necessitatibus officia blanditiis, recusandae et itaque minus, quis cumque. Soluta magni unde, deleniti accusantium ea aut quisquam, nobis ratione. Cumque eligendi est, eaque?</p>
+    <label>Genero&nbsp;</label>
+    
+    <form id="form2" name="form2" method="post" action="procesamiento.html">
+      
+		<table width="200">
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero" value="h" id="Geacutenero_0">
+            Masculino</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero" value="m" id="Geacutenero_1">
+            Femenino</label></td>
+        </tr>
+			
+			
+      </table>
+		<br>
+			<br>
+		<label>Elige las materias que llevas</label>
+		
+		<table width="200">
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Genero musical" value="cum" id="Generomusical_0">
+		      Matematicas</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Genero musical" value="sal" id="Generomusical_1">
+		      Español</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Genero musical" value="rgton" id="Generomusical_2">
+		      Historia</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Genero musical" value="roc" id="Generomusical_3">
+		      Literatura</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Genero musical" value="pop" id="Generomusical_4">
+		      Geografía</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Genero musical" value="bol" id="Generomusical_5">
+		      Contabilidad</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Genero musical" value="clas" id="Generomusical_6">
+		      Música</label></td>
+	      </tr>
+	  </table>
+		<br>
+			<br>
+		<input name="submit2" type="submit" id="submit2" formmethod="GET" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>FORMULARIO  CSS&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis asperiores quas nulla cupiditate magni facilis ratione fugit doloribus deserunt est non provident impedit qui voluptas eaque odio necessitatibus officia blanditiis, recusandae et itaque minus, quis cumque. Soluta magni unde, deleniti accusantium ea aut quisquam, nobis ratione. Cumque eligendi est, eaque?</p>
+  
+	  
+	  <form id="form3" name="form3" method="get" action="procesamiento.html">
+		  <br>
+	<label for="nombre">Nombre:</label>
+    <input name="nombre" type="text" id="nombre" autocomplete="on">
+		   <br>
+    <label for="Correo">Dirección:</label>
+    <input name="Correo" type="email" id="Correo" autocomplete="on">
+		   <br>
+    <label for="comentarios">Comentarios:</label>
+    <textarea name="comentarios" cols="10" rows="5" maxlength="100" id="comentarios"></textarea>
+		   <br>
+		  <br>
+		  
+    <input type="submit" name="submit3" id="submit3" value="Enviar">
+   		  
+    </form>
+    
+  </section>
+  <section>
+    <h2>MI FORMULARIO&nbsp; &nbsp;&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis asperiores quas hhnulla cupiditate magni facilis ratione fugit doloribus deserunt est non provident impedit qui voluptas eaque odio necessitatibus officia blanditiis, recusandae et itaque minus, quis cumque. Soluta magni unde, deleniti accusantium ea aut quisquam, nobis ratione. Cumque eligendi est, eaque?</p>
+	  
+    <form id="form4" name="form4" method="post" action="procesamiento.html">
+      <label for="textfield">Nombres:</label>
+      <input type="text" name="textfield" id="textfield">
+		<br>
+		
+      <label for="textfield3">Apellido Paterno:</label>
+      <input type="text" name="textfield3" id="textfield3">
+      <br>
+    
+      <label for="textfield3">Apellido Materno:</label>
+      <input type="text" name="textfield4" id="textfield4">
+		<br>
+		
+      <label for="Fecha">Fecha de Nacimiento:</label>
+      <input name="Fecha" type="date" autofocus="autofocus" id="Fecha" max="2022-01-01" min="1995-01-01">
+		<br>
+		<br>
+	
+	<table width="200">
+        <tr>
+          <td><label>Género:</label>
+			  <br>
+            <label>
+            <input type="radio" name="Genero" value="h" id="Geacutenero_3">
+            Masculino</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero" value="m" id="Geacutenero_4">
+            Femenino</label></td>
+        </tr>
+      </table>
+		
+      <label for="email">Correo Electronico:</label>
+      <input type="email" name="email" id="email">
+	  <br>
+	  
+	  <label for="estados">Estado:</label>
+      <select name="estados" autofocus="autofocus" id="estados">
+        <option value="tlx">Tlaxcala</option>
+        <option value="pue">Puebla</option>
+        <option value="hgo">Hidalgo</option>
+        <option value="cdmx">CDMX</option>
+        <option value="Oax">Oaxaca</option>
+        <option value="chia">Chiapas</option>
+        <option value="ver">Veracruz</option>
+        <option value="jal">Jalisco</option>
+        <option value="yuc">Yucatan</option>
+        <option value="tam">Tamaulipas</option>
+      </select>
+		<br>
+<br>
+	
+      <label>Materias a solicitar:&nbsp;</label>
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Materias a solicitar" value="tallb" id="Materiasasolicitar_0">
+            Taller Básico</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Materias a solicitar" value="tall1" id="Materiasasolicitar_1">
+            Taller I</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Materias a solicitar" value="tall2" id="Materiasasolicitar_2">
+            Taller II</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Materias a solicitar" value="his" id="Materiasasolicitar_3">
+            Historia</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Materias a solicitar" value="dib" id="Materiasasolicitar_4">
+            Dibujo</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Materias a solicitar" value="met" id="Materiasasolicitar_5">
+            Metodología</label></td>
+        </tr>
+		  <br>
+		  
+		  
+      </table>
+		<br>
+<br>
+		<br>
+		
+      <label for="archisubir">Documentación:</label>
+      <input name="archisubir" type="file" autofocus="autofocus" multiple="multiple" id="archisubir">
+		<br>
+		<br>
+		
+		<label for="comentarios">Comentarios:</label>
+		<br>
+      <textarea name="comentarios2" cols="50" rows="4" maxlength="180" autofocus="autofocus" id="comentarios2"></textarea>
+		<br>
+		<br>
+
+		
+      <input type="reset" name="reset" id="reset" value="Restablecer">
+      <input type="submit" name="submit4" id="submit4" value="Enviar">
+      
+		
+      
+      
+    </form>
+  </section>
+  
+</main>
+<footer>
+  <h6>Elaborado por Yesenhia Parra López </h6>
+</footer>
+	
+	
+	
+</body>
+</html>
